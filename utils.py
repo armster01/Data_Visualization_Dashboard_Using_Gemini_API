@@ -48,7 +48,7 @@ def format_number(num):
 def get_data_insights(df):
     """Get AI-powered insights about the data using Gemini"""
     try:
-        model = genai.GenerativeModel('gemini-pro')
+        model = genai.GenerativeModel('gemini-2.0-flash')
         
         # Prepare data summary
         data_info = f"""
